@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="ProteinTracker.MainWindow"
+        Title="Protein Tracker"
+        Width="500"
+        Height="300">
+
+    <StackPanel Margin="40" Spacing="20">
+
+        <TextBlock Text="Protein Tracker"
+                   FontSize="30"
+                   FontWeight="Bold"/>
+
+        <TextBlock Text="Wie hoch ist dein tägliches Proteinziel?"/>
+
+        <TextBox Watermark="z.B. 120"/>
+
+        <Button Content="Ziel speichern"
+                HorizontalAlignment="Left"/>
+
+    </StackPanel>
+
+</Window>

@@ -5,18 +5,16 @@
         Width="500"
         Height="300">
 
-    <StackPanel Margin="40" Spacing="20">
+    <StackPanel Margin="40" Spacing="15">
 
         <TextBlock Text="Protein Tracker"
                    FontSize="30"
                    FontWeight="Bold"/>
 
-        <TextBlock Text="Wie hoch ist dein tägliches Proteinziel?"/>
+        <TextBlock Text="Tägliches Proteinziel"/>
 
-        <TextBox Watermark="z.B. 120"/>
-
-        <Button Content="Ziel speichern"
-                HorizontalAlignment="Left"/>
+        <TextBox x:Name="ProteinZielInput"
+                 Watermark="Protein in Gramm"/>
 
     </StackPanel>
 

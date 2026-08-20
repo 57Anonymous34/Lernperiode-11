@@ -30,12 +30,13 @@ Heute habe ch mich für ein Projekt entschieden, das meiner Meinung nach mir seh
 
 ## 21.8
 
-- [ ] Als Benutzer möchte ich Zahlen in das Eingabefeld eingeben können, damit ich mein tägliches Proteinziel festlegen kann.
+- [X] Als Benutzer möchte ich Zahlen in das Eingabefeld eingeben können, damit ich mein tägliches Proteinziel festlegen kann.
 - [ ] Als Benutzer möchte ich mein Proteinziel mit einem Button bestätigen können, damit das Ziel übernommen wird.
 - [ ] Als Benutzer möchte ich mein festgelegtes Proteinziel sehen können, damit ich weiss, wie viel Protein ich erreichen möchte
 - [ ] Als Benutzer möchte ich eine Fehlermeldung erhalten, wenn ich eine ungültige Eingabe mache, damit nur gültige Proteinziele übernommen werden.
 
 ✍️ Heute habe ich... (50-100 Wörter)
+
 
 
 ☝️ Vergessen Sie nicht, einen ersten Code und Skizze auf github hochzuladen!

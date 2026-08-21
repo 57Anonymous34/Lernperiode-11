@@ -33,10 +33,20 @@ Heute habe ch mich für ein Projekt entschieden, das meiner Meinung nach mir seh
 - [X] Als Benutzer möchte ich Zahlen in das Eingabefeld eingeben können, damit ich mein tägliches Proteinziel festlegen kann.
 - [X] Als Benutzer möchte ich mein Proteinziel mit einem Button bestätigen können, damit das Ziel übernommen wird.
 - [X] Als Benutzer möchte ich mein festgelegtes Proteinziel sehen können, damit ich weiss, wie viel Protein ich erreichen möchte
-- [] Als Benutzer möchte ich eine Fehlermeldung erhalten, wenn ich eine ungültige Eingabe mache, damit nur gültige Proteinziele übernommen werden.
+- [ ] Als Benutzer möchte ich eine Fehlermeldung erhalten, wenn ich eine ungültige Eingabe mache, damit nur gültige Proteinziele übernommen werden.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
+Heute habe ich mei Projekt mit SQLite verbunden und auch einen Test ausgeführt. Ich habe auch noch andere Seiten hinzugefügt. Der Nutzer muss am Anfang seinen Namen eingeben, dann sein Proteinziel. Wenn der Nutzer das gemacht hat, öffnet sich eine weitere Seite und dort kann er seine Gerichte hinzufügen.
 
+☝️ Vergessen Sie nicht, einen ersten Code und Skizze auf github hochzuladen!
+
+## 28.9
+
+- [ ] Der eingegebene Proteingehalt soll automatisch berechnet werden.
+- [ ] Mehrere Zutaten zu einem Gericht hinzufügen können.
+- [ ] Das Proteinziel und die Gerichte mit SQLite speichern.
+
+✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, einen ersten Code und Skizze auf github hochzuladen!

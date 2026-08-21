@@ -1,0 +1,49 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="ProteinTracker.ZielWindow"
+        Title="Proteinziel"
+        Width="500"
+        Height="400"
+        Background="#F3F4F6">
+
+    <Border Background="White"
+            CornerRadius="15"
+            Padding="40"
+            Margin="40">
+
+        <StackPanel Spacing="20">
+
+            <TextBlock x:Name="BegruessungText"
+                       Text="Hallo!"
+                       FontSize="30"
+                       FontWeight="Bold"/>
+
+            <TextBlock Text="Was ist dein tägliches Proteinziel?"
+                       FontSize="18"/>
+
+            <Grid ColumnDefinitions="*,Auto"
+                  ColumnSpacing="10">
+
+                <TextBox x:Name="ProteinZielInput"
+                         Watermark="z.B. 140"/>
+
+                <TextBlock Grid.Column="1"
+                           Text="g"
+                           VerticalAlignment="Center"
+                           FontSize="18"/>
+
+            </Grid>
+
+            <TextBlock x:Name="FehlerAnzeige"
+                       Text=""/>
+
+            <Button Content="Ziel festlegen"
+                    HorizontalAlignment="Center"
+                    Padding="30,10"
+                    Click="ZielFestlegen_Click"/>
+
+        </StackPanel>
+
+    </Border>
+
+</Window>

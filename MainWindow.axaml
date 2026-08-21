@@ -3,19 +3,37 @@
         x:Class="ProteinTracker.MainWindow"
         Title="Protein Tracker"
         Width="500"
-        Height="300">
+        Height="350"
+        Background="#F3F4F6">
 
-    <StackPanel Margin="40" Spacing="15">
+    <Border Background="White"
+            CornerRadius="15"
+            Padding="40"
+            Margin="40">
 
-        <TextBlock Text="Protein Tracker"
-                   FontSize="30"
-                   FontWeight="Bold"/>
+        <StackPanel Spacing="20">
 
-        <TextBlock Text="Tägliches Proteinziel"/>
+            <TextBlock Text="Protein Tracker"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
 
-        <TextBox x:Name="ProteinZielInput"
-                 Watermark="Protein in Gramm"/>
+            <TextBlock Text="Wie heisst du?"
+                       FontSize="18"/>
 
-    </StackPanel>
+            <TextBox x:Name="NameInput"
+                     Watermark="Name eingeben"/>
+
+            <TextBlock x:Name="FehlerAnzeige"
+                       Text=""/>
+
+            <Button Content="Weiter"
+                    HorizontalAlignment="Center"
+                    Padding="30,10"
+                    Click="Weiter_Click"/>
+
+        </StackPanel>
+
+    </Border>
 
 </Window>

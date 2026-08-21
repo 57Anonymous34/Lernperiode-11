@@ -1,0 +1,93 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="ProteinTracker.TrackerWindow"
+        Title="Protein Tracker"
+        Width="700"
+        Height="750"
+        Background="#F3F4F6">
+
+    <ScrollViewer>
+        <StackPanel Margin="40" Spacing="20">
+
+            <TextBlock x:Name="NameAnzeige"
+                       Text="Hallo!"
+                       FontSize="30"
+                       FontWeight="Bold"/>
+
+            <Border Background="White"
+                    CornerRadius="12"
+                    Padding="25">
+
+                <StackPanel Spacing="15">
+
+                    <TextBlock Text="Tagesfortschritt"
+                               FontSize="20"
+                               FontWeight="SemiBold"/>
+
+                    <TextBlock x:Name="FortschrittAnzeige"
+                               Text="0 / 0 g"
+                               FontSize="30"
+                               FontWeight="Bold"/>
+
+                    <ProgressBar x:Name="ProteinBalken"
+                                 Minimum="0"
+                                 Maximum="100"
+                                 Value="0"
+                                 Height="15"/>
+
+                    <TextBlock x:Name="RestAnzeige"
+                               Text=""/>
+
+                </StackPanel>
+
+            </Border>
+
+            <Border Background="White"
+                    CornerRadius="12"
+                    Padding="25">
+
+                <StackPanel Spacing="15">
+
+                    <TextBlock Text="Gericht hinzufügen"
+                               FontSize="22"
+                               FontWeight="SemiBold"/>
+
+                    <TextBlock Text="Name des Gerichts"/>
+
+                    <TextBox x:Name="GerichtNameInput"
+                             Watermark="z.B. Poulet mit Reis"/>
+
+                    <TextBlock Text="Zutat"/>
+
+                    <TextBox x:Name="ZutatNameInput"
+                             Watermark="z.B. Poulet"/>
+
+                    <TextBlock Text="Eiweiss pro 100 g"/>
+
+                    <TextBox x:Name="ProteinPro100Input"
+                             Watermark="z.B. 23"/>
+
+                    <TextBlock Text="Verwendete Menge in Gramm"/>
+
+                    <TextBox x:Name="MengeInput"
+                             Watermark="z.B. 200"/>
+
+                    <Button Content="Zutat hinzufügen"
+                            HorizontalAlignment="Left"/>
+
+                    <TextBlock Text="Protein im Gericht: 0 g"
+                               FontSize="18"
+                               FontWeight="Bold"/>
+
+                    <Button Content="Gericht zum Tagesfortschritt hinzufügen"
+                            HorizontalAlignment="Left"
+                            Padding="20,10"/>
+
+                </StackPanel>
+
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
+
+</Window>

@@ -43,9 +43,9 @@ Heute habe ich mei Projekt mit SQLite verbunden und auch einen Test ausgeführt.
 
 ## 28.9
 
-- [ ] Der eingegebene Proteingehalt soll automatisch berechnet werden.
-- [ ] Mehrere Zutaten zu einem Gericht hinzufügen können.
-- [ ] Das Proteinziel und die Gerichte mit SQLite speichern.
+- [ ] Als Interisierter Sportler möchte ich das der eingegebene Proteingehalt soll automatisch berechnet werden.
+- [ ] Als benutzer möchte ich mehrere Zutaten zu einem Gericht hinzufügen können.
+- [ ] Als Programmierer möchte ich das Proteinziel und die Gerichte mit SQLite speichern.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
